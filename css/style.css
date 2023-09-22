@@ -1,0 +1,246 @@
+/* @font-face{
+    font-family: ;
+    src: url(../fonts/oswald/Oswald-Bold.ttf);
+} */
+/* common start  */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/* common end  */
+/* header start  */
+header{
+    padding: 20px 0;
+    /* border-bottom: 1px solid blue; */
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    /* border: 1px solid black; */
+}
+.logo{
+    margin-top: 13px;
+    width: 12%;
+    float: left;
+    /* border: 1px solid black; */
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 65%;
+    float: right;
+    /* border: 1px solid black; */
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    margin: 0 50px;
+    padding: 4px 1px 3px;
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: .3s;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+}
+
+/* header end  */
+/* banner start */
+.banner{}
+.b_img{}
+.b_img img{
+    width: 100%;
+}
+/* banner end  */
+/* perfect start  */
+.perfect{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    /* border: 1px solid blue; */
+}
+.container2{
+    margin: 0 auto;
+    overflow: hidden;
+    width: 80%;
+    /* border: 1px solid black; */
+}
+.p_content{}
+.c_light{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.c_h1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.c_text{
+    margin: 0;
+    line-height: 25px;
+}
+.mb_40{
+    margin-bottom: 40px;
+}
+/* perfect end  */
+/* blog start */
+.blog{
+    padding-top: 30px;
+    padding-bottom: 100px;
+    /* border: 1px solid red; */
+}
+.blogs{}
+.single{
+    margin-top: 70px;
+    width: 47%;
+    /* border: 1px solid green; */
+    float: left;
+}
+.single:nth-child(even){
+   margin-left: 6%;
+}
+.s_img{
+    margin-bottom: 25px;
+}
+.s_img img{
+    width: 100%;
+}
+/* blog end */
+/* contact start */
+.contact{
+    padding: 70px 0;
+    background-color: #f0f0f0;
+}
+.signup{   
+    text-align: center
+}
+.s_h1{
+    margin-top: 0;
+    margin-bottom: 70px;
+    color: #333333;
+}
+.s_form{
+    width: 400px;
+    /* border: 5px solid red; */
+    margin: 0 auto;
+    position: relative;
+}
+.s_form input{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: #626262;
+    width: 344px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 45px;
+    outline: 0;
+
+}
+.s_form button{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 6px;
+    right: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.s_form button img{}
+/* contact end */
+
+/* blog2 start */
+.blog2{
+    margin-bottom: 100px;
+}
+.load{
+    margin-top: 100px;
+    text-align: center;
+}
+.btn{
+    width: 160px;
+    height: 60px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    background-color: transparent;
+    /* border: 1px solid #626262; */
+    transition: .3s;
+
+}
+.btn:hover{
+	background-color: #626262;
+	color: white;
+}
+/* blog2 end */
+
+/* footer start */
+footer{
+    padding: 40px 0;
+    background-color: #f0f0f0;
+}
+.terms{
+    width: 40%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.terms ul{
+    margin: 0;
+    padding: 0;
+}
+.terms ul li{
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+}
+.terms ul li a{
+    color: #000000;
+	text-decoration: none;
+}
+.social{
+    width: 30%;
+    /* border: 1px solid black; */
+    float: right;
+}
+.social ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.social ul li{
+    margin-right: 20px;
+    list-style: none;
+    float: left;
+}
+.social ul li:last-child{
+    margin-right: 0;
+}
+.social ul li span{
+    color: #000000;
+}
+
+/* footer end */
